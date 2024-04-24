@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Bebas+Neue&family=Bubblegum+Sans&family=Carter+One&family=Ceviche+One&family=Concert+One&family=Fredoka+One&family=Kalam:wght@700&family=Kaushan+Script&family=Mochiy+Pop+One&family=Oleo+Script&family=Poppins:wght@100;200;300;400;600;700&family=Quicksand&family=Rancho&family=Shrikhand&family=Titan+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c02daae0d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Electricals</title>
+</head>
+
+<body>
+
+    <!-- HERO SECTION  -->
+
+    <section class="header" id="home">
+
+        <nav>
+            <a href="index.html"><img src="img/logo1.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>We work with electricity!!!</h1>
+            <p>We are dedicated to excellence in electrical work. <br> Don'T Be De-Lighted. Give Our Electrical Business A Call!</p>
+            <a href="#contact" class="hero-btn">Contact Us for More</a>
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ABOUT US  -->
+
+<section class="about-us" id="about">
+    <h1>About Us</h1>
+    <p>One Stop Electrical Solution. <br> A home of Electrical Solution is established in the year 2004.</p>
+
+    <div class="about-row">
+        <div class="about-col">
+            <h3>Trust us with your needs</h3>
+            <p>The Company has emplyoee - experienced people from the same field ensuring high standard services to its valuable customers. We offer a wide range of services for Enginnering, Installation, Commisioning, upcoming project and for operation & maintenance of existing plants. <br> <br>
+                Our Comapny provides electric supplies for commercial, industrial, residential complex, utilities and telecommunications. <br>
+                The company is fast growing from the time of its establishment due to its capacity of providing customized solution in the field of Electricals. The products & services are carefully selected to meet the vision and mission of the Company. The Services include consultancy, Designing, Supplying and Installation of reliable and quality products. </p>
+            <a href="#services" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="img/about.jpg" alt="aboutus">
+        </div>
+    </div>
+
+</section>
+
+<hr>
+<hr>
+<hr>
+<hr>
+
+    <!-- SERVICES  -->
+
+    <section class="services" id="services">
+        <h1>Services We Offer</h1>
+        <p>We provide you with all your electrical needs quickly and easliy. <br> Our Services Will Keep You Smiling.</p>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Electrical Services</h3>
+                <p>We offer Design nd Electrical Services with ltest technology for LV & HV panels, tailor made to suit customer
+                    requirements.</p>
+            </div>
+            <div class="service-col">
+                <h3>Electrical Panel</h3>
+                <p>Our company is also engaged in providing fabricaation of Electrical Panels as per the application with
+                    performance guarantee.</p>
+            </div>
+            <div class="service-col">
+                <h3>Structure Cabling</h3>
+                <p>We are engaged in supplying and Installation of data cables. We offer data cables in various set
+                    specification as per client's reuirement.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="service-col">
+                <h3>Internal Electrification</h3>
+                <p>Leveraging on years of industry experience we are able to carry out superior Internal Electrification
+                    projects.</p>
+            </div>
+            <div class="service-col">
+                <h3>Warehousing Project</h3>
+                <p>Electrical Wrehousing services as the demand for contract logistic and warehouse space in the electrical
+                    sector.</p>
+            </div>
+            <div class="service-col">
+                <h3>Electrical Services</h3>
+                <p>We offer electrical services for your home or business, including childproof outlets, commercial energy
+                    audits, nd whole home surge protection.</p>
+            </div>
+        </div>
+    </section>
+
+<hr>
+<hr>
+<hr>
+<hr>
+
+
+<!-- CONTACT US  -->
+
+<section class="contact" id="contact">
+    <h1>Contact Us</h1>
+    <p>Wants to get connected with us. You are jusr a step away..</p>
+
+    <div class="contact-info">
+        <div class="card">
+            <i class="fa-solid fa-envelope card-icon"></i>
+            <p>myname@gmail.com</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-phone card-icon"></i>
+            <p>+91 111111111</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-location-dot card-icon"></i>
+            <p>Birendranagar 06
+                Surkhet, NP12
+            </p>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+
+<!-- JAVASCRIPT FOR TOGGLE MENU -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu(){
+        navLinks.style.right = '-200px';
+    }
+
+</script>
+
+
+</body>
+
+</html>
